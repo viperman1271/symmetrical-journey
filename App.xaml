@@ -1,7 +1,7 @@
-﻿<Application x:Class="MuseeAudio.App"
+﻿<Application x:Class="SymmetricalJourney.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:MuseeAudio"
+             xmlns:local="clr-namespace:SymmetricalJourney"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

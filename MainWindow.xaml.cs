@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
 
-namespace MuseeAudio
+namespace SymmetricalJourney
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

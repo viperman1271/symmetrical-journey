@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace MuseeAudio
+namespace SymmetricalJourney
 {
     /// <summary>
     /// Interaction logic for App.xaml
