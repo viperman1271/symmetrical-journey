@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MuseeAudio"
         mc:Ignorable="d"
-        Title="Mussee Audio" Height="450" Width="800">
+        Title="Mussee Audio" Height="250" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -23,16 +23,12 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="5"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="500"/>
             <ColumnDefinition Width="5"/>
             <ColumnDefinition Width="75"/>
 
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Menu Grid.Row="0" Grid.ColumnSpan="7">
-            <MenuItem Header="Fichier"/>
-            <MenuItem Header="Aide"/>
-        </Menu>
 
         <ComboBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" ItemsSource="{Binding Collection}" SelectedItem="{Binding SelectTemplate}"/>
         
