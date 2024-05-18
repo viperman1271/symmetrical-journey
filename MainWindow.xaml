@@ -30,13 +30,13 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <ComboBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" ItemsSource="{Binding Collection}" SelectedItem="{Binding SelectTemplate}"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" ItemsSource="{Binding Collection}" SelectedItem="{Binding SelectedTemplate}"/>
         
         <TextBlock Text="Fichier" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"/>
-        <TextBlock Text="Dossier Destination" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center"/>
+        <TextBlock Text="Dossier DestinationFolder" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center"/>
 
-        <TextBox Grid.Row="4" Grid.Column="3" Text="{Binding File}"/>
-        <TextBox Grid.Row="6" Grid.Column="3" Text="{Binding Destination}"/>
+        <TextBox Grid.Row="4" Grid.Column="3" Text="{Binding InputFile}"/>
+        <TextBox Grid.Row="6" Grid.Column="3" Text="{Binding DestinationFolder}"/>
 
         <Button Grid.Row="4" Grid.Column="5" Content="Browse" Command="{Binding ChooseFile}"/>
         <Button Grid.Row="6" Grid.Column="5" Content="Browse" Command="{Binding ChooseDestination}"/>
