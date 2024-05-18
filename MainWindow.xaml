@@ -40,6 +40,8 @@
 
         <Button Grid.Row="4" Grid.Column="5" Content="Browse" Command="{Binding ChooseFile}"/>
         <Button Grid.Row="6" Grid.Column="5" Content="Browse" Command="{Binding ChooseDestination}"/>
+
+        <Button Grid.Row="8" Grid.Column="3" Content="Executer Tout" Command="{Binding ExecuteAll}"/>
         <Button Grid.Row="8" Grid.Column="5" Content="Executer" Command="{Binding Execute}"/>
     </Grid>
 </Window>
